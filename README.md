@@ -1,2 +1,2 @@
 # gotest
-for my go lang experiments
+This registry is for my go lang experiments
