@@ -47,6 +47,28 @@ func main() {
 	fmt.Println("======================")
 	rev(months[1:13])
 	fmt.Println(months)
+
+	fmt.Println("======================")
+
+	var runes []rune
+	
+	for _, r := range "Hello 世界" {
+		runes = append(runes, r)
+
+	}
+
+	fmt.Printf("%q\n", runes)
+
+	fmt.Println("======================")
+	var x[] int
+	x = append(x,1)
+	fmt.Println(x)
+	x = append(x, 2, 3)
+	fmt.Println(x)
+	x = append(x, 4,5,6)
+	fmt.Println(x)
+	x = append(x, x...)
+	fmt.Println(x)
 }
 
 func rev(s []string) {
